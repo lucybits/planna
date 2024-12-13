@@ -1,0 +1,110 @@
+.grid-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 20px;
+  background-color: #0d111a;
+  box-sizing: border-box;
+}
+
+.left-grid {
+  background-color: #141824;
+  padding: 25px;
+  border-radius: 12px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid #1e2433;
+  position: relative;
+}
+
+.left-grid h1 {
+  background: linear-gradient(45deg, #ffffff, #8d8d8d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+  margin-bottom: 8px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.left-grid p {
+  color: #8b95a9;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.left-grid .warning-note {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.75rem;
+  color: #ffffff7e;
+  opacity: 0.7;
+  padding: 10px;
+  max-width: 320px;
+}
+
+.right-grid {
+  background-color: #141824;
+  padding: 20px;
+  border-radius: 12px;
+  height: 70vh;
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #1e2433;
+  box-sizing: border-box;
+  flex-direction: column;
+  display: flex;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #4a5573 #1a1f2e;
+}
+
+.right-grid::-webkit-scrollbar {
+  width: 10px;
+  background-color: #1a1f2e;
+}
+
+.right-grid::-webkit-scrollbar-track {
+  background: #1a1f2e;
+  border-radius: 6px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.right-grid::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #4a5573, #2a3146);
+  border-radius: 6px;
+  border: 2px solid #1a1f2e;
+  transition: all 0.3s ease;
+}
+
+.right-grid::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #5a6583, #3a4359);
+  cursor: pointer;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.task-title {
+  color: #ffffffb4;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: center;
+}
