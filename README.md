@@ -44,3 +44,5 @@ Planna is still in development, and contributions are always welcome! If you'd l
 
 ## 🙏 Thanks for using Planna!
 A huge thank you to everyone using Planna! Your support means the world to us. If you have any feedback or suggestions, please don’t hesitate to open an issue or get in touch. We’re always looking to improve and make Planna even better for u!
+
+![Figaro Cat GIF](https://media1.tenor.com/m/6W8nFy488owAAAAC/figaro-cat.gif)
