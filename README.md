@@ -24,7 +24,7 @@ Si deseas clonar y ejecutar el proyecto en tu máquina local, sigue los siguient
    cd planna
    npm install
    ```
-- **Ejecuta el proyecto localmente*, para iniciar el servidor de desarrollo, ejecuta:
+- **Ejecuta el proyecto localmente**, para iniciar el servidor de desarrollo, ejecuta:
    ```
    npm run dev
    ```
