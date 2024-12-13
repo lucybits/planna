@@ -1,44 +1,46 @@
 # Planna
 
-**Planna** es una aplicación de lista de tareas (To-Do List) desarrollada para organizar y gestionar actividades
+**Planna** is a simple To-Do List app built to help you stay organized and manage tasks easily =)!
 
-## 🚀 Estado del proyecto
+## 🚀 Project status
 
-Planna está actualmente en **fase beta**; la aplicación ya tiene su funcionalidad básica implementada, pero se encuentra en una etapa de pruebas y ajustes para mejorar la experiencia del usuario, corregir errores y agregar nuevas características.
+Planna is currently in **beta**; the app has the core features implemented, but it’s still in the testing phase with improvements, bug fixes, and new features on the way!
 
-### Funcionalidades principales en beta
-- **Agregar tareas** - Agregar con un simple clic
-- **Eliminar tareas** - Elimina tareas que ya no necesitas
-- **Interfaz limpia** - Diseño limpio y sencillo para la gestión de tareas
+### Main features on beta
+- **Add tasks** – Add tasks with a single click
+- **Delete tasks** – Remove tasks you no longer need
+- **Clean UI** – Simple and sleek design for task management
 
-## 🛠️ Instrucciones de instalación
+## 🛠️ Installation
 
-Si deseas clonar y ejecutar el proyecto en tu máquina local, sigue los siguientes pasos:
+If you want to clone and run the project locally, follow these steps:
 
-- **Clona el repositorio**:
+- **Clone the repo**:
    ```bash
    git clone https://github.com/lucybits/planna.git
    ```
-- **Instala las dependencias**, navega a la carpeta del proyecto y ejecuta:
+- **Install dependencies**, go to the project folder and run:
    ```
    cd planna
    npm install
    ```
-- **Ejecuta el proyecto localmente**, para iniciar el servidor de desarrollo, ejecuta:
+- **Run the project locally**, to start the dev server, run:
    ```
    npm run dev
    ```
 
-   Abre tu navegador y accede a http://localhost:[numeroaqui]
+  Then, open your browser and go to http://localhost:[port-here]
 
-## 📝 Contribuciones
-Planna está en pleno desarrollo y siempre se agradecen las contribuciones. Si deseas contribuir al proyecto, por favor sigue estos pasos:
-* Haz un fork del repositorio.
-* Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
-* Realiza tus cambios.
-* Realiza un commit (git commit -m '/añadir nueva funcionalidad acá/').
-* Sube tus cambios a tu repositorio remoto (git push origin feature/nueva-funcionalidad).
-* Abre un pull request desde tu rama hacia main en este repositorio.
+## 📝 Contributions
+Planna is still in development, and contributions are always welcome! If you'd like to contribute, please follow these steps!!!
+* Fork the repo
+* Create a new branch (git checkout -b feature/new-feature)
+* Make your changes
+* Commit your changes (git commit -m '/add new feature here/')
+* Push your changes to your remote repo (git push origin feature/new-feature)
+*Open a pull request from your branch to **main** in this repo
 
 
-  Gracias por usar Planna! Si tienes comentarios o sugerencias, no dudes en abrir un issue o ponerte en contacto.
+
+## 🙏 Thanks for using Planna!
+A huge thank you to everyone using Planna! Your support means the world to us. If you have any feedback or suggestions, please don’t hesitate to open an issue or get in touch. We’re always looking to improve and make Planna even better for u!
